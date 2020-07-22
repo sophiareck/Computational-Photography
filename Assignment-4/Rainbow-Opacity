@@ -1,7 +1,8 @@
 var img;
 
 function preload() {
-  img = loadImage('https://i.ibb.co/RTC0RCS/Lily-s-Painting.jpg');
+  img = loadImage('https://i.ibb.co/RTC0RCS/Lily-s-Painting.jpg');  //replace with either https://i.ibb.co/BZrxZgV/Mom-s-Painting.jpg for my Mom's Painting or https://i.ibb.co/DGYNyWX/My-painting.jpg for my painting
+}
 }
 
 function setup() {
