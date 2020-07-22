@@ -22,15 +22,15 @@ function setup() {
       var b = pixels[index + 2]
       var a = pixels[index + 3]
 
-      var maxi = max([r, g, b]);
-         if (maxi == b) {
-          pixels[index + 0] = r
+      var maxi = max([r, g, b]); //creates variable that determines which color is most present in the pixel
+         if (maxi == b) { //if blue is most present
+          pixels[index + 0] = r /keep that pixel the same
           pixels[index + 1] = g
           pixels[index + 2] = b
-        } else {
+        } else { //if not, randomized red and green values
           pixels[index + 0] = random(0,255);
           pixels[index + 1] = random(0,255);
-          pixels[index + 2] = random(0,0);
+          pixels[index + 2] = random(0); //keep blue at 0
     }
     }
   }
